@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="A modern, responsive web page showcasing audio and video elements with a dark theme and a distinct layout.">
+    <title>Media Showcase</title>
+    <!-- Importing a more modern, elegant font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Videos</a>
+        <a href="#">Audios</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Blog</a>
+        <a href="#">Help</a>
+    </nav>
+
+    <main>
+        <!-- Videos Section -->
+        <section>
+            <h2>Ghulam Rasool Cartoon Series</h2>
+            <div class="grid-container">
+                <div class="media-card">
+                    <div class="video-container">
+                        <!-- Added unique IDs for YouTube API and enablejsapi parameter -->
+                        <iframe id="youtube-player-1" src="https://www.youtube.com/embed/H86i72hNAUk?enablejsapi=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <p>Ghulam Rasool Cartoon | Baqra Eid Special Compilation | Islamic Cartoon Series | Kids Land</p>
+                </div>
+                <div class="media-card">
+                    <div class="video-container">
+                        <iframe id="youtube-player-2" src="https://www.youtube.com/embed/H_dTOskRKFQ?enablejsapi=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <p>Noman Aur Farman Washroom Mein Lock | Gulam Rasool Cartoon Series | Islamic Cartoon | Kids Land
+                    </p>
+                </div>
+                <div class="media-card">
+                    <div class="video-container">
+                        <iframe id="youtube-player-3" src="https://www.youtube.com/embed/Q_wagTKtDVY?enablejsapi=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <p>Monster Tree | Ghulam Rasool Cartoon Series | 3D Animation | Urdu Cartoon</p>
+                </div>
+                <div class="media-card">
+                    <div class="video-container">
+                        <iframe id="youtube-player-4" src="https://www.youtube.com/embed/8CBek6eBttQ?enablejsapi=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <p>Begair Ankhon Wala Bhoot | New Ghulam Rasool Cartoon | 3D Animation | Horror Story | Ayat Al
+                        Kursi</p>
+                </div>
+                <div class="media-card">
+                    <div class="video-container">
+                        <iframe id="youtube-player-5" src="https://www.youtube.com/embed/mSQeGCFXgNU?enablejsapi=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <p>Babloo Aur Faizan Ghar Se Gayab | New Epsidoe | Ghulam Rasool Cartoon Series | 3D Animation |
+                        Kids Land</p>
+                </div>
+                <div class="media-card">
+                    <div class="video-container">
+                        <iframe id="youtube-player-6" src="https://www.youtube.com/embed/b-d33lmRDmU?enablejsapi=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <p>Cycle Chori Hogayi | New Episode | Ghulam Rasool Cartoon Series | 3D Animation | Kids Land</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Audios Section -->
+        <section>
+            <h2>A Collection of Sufi Music Tracks</h2>
+            <div class="grid-container">
+                <div class="media-card">
+                    <audio src="audios/1.mp3" controls aria-label="Audio player for Tu Jhoom"></audio>
+                    <p>Tu Jhoom (Abida Parveen and Naseebo Laal)</p>
+                </div>
+                <div class="media-card">
+                    <audio src="audios/2.mp3" controls aria-label="Audio player for Ye Sab Tumhara Karam hai"></audio>
+                    <p>Ye Sab Tumhara Karam hai Aaqa (Abida Parveen and Ali Sethi)</p>
+                </div>
+                <div class="media-card">
+                    <audio src="audios/3.mp3" controls aria-label="Audio player for Lagi Bina"></audio>
+                    <p>Lagi Bina - Chal Mely Noon Challiye (Saaen Zahoor and Sanam Marvi)</p>
+                </div>
+                <div class="media-card">
+                    <audio src="audios/4.mp3" controls aria-label="Audio player for Uddi Ja"></audio>
+                    <p>Uddi Ja (Mohsin Abbas Haider)</p>
+                </div>
+                <div class="media-card">
+                    <audio src="audios/5.mp3" controls aria-label="Audio player for Allahu Akbar"></audio>
+                    <p>Allahu Akbar (Ahmed Jahanzeb and Shafqat Amanat Ali Khan)</p>
+                </div>
+                <div class="media-card">
+                    <audio src="audios/6.mp3" controls aria-label="Audio player for Maula Tera Noor"></audio>
+                    <p>Maula Tera Noor (Shafqat Amanat Ali Khan)</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; HTML CSS Media Page | All rights reserved
+    </footer>
+
+    <!-- Link to external JavaScript file for Media Showcase -->
+    <script src="script.js"></script>
+</body>
+
+</html>
