@@ -1,6 +1,6 @@
  /* Base styles for the entire page */
         * {
-            margin: 0;
+            margin: 8px;
             padding: 0;
             box-sizing: border-box;
             font-family: 'Lato', sans-serif;
@@ -30,7 +30,6 @@
             margin-bottom: 4rem;
             width: 100%;
             max-width: 1200px;
-            border: 1px solid #2e435b;
             animation: slideInFromTop 0.8s ease-out;
         }
 
@@ -86,7 +85,6 @@
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
             transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.5s ease;
             padding: 2rem;
-            border: 2px solid #2e435b;
             align-items: center;
             gap: 3rem;
             animation: slideInFromSide 0.8s ease-out;
@@ -98,7 +96,6 @@
         }
 
         .media-card:hover {
-            transform: scale(1.03);
             box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
             background-color: #2e435b;
         }
@@ -138,9 +135,7 @@
         /* Audio element styles */
         audio {
             width: 50%;
-            /* border: 5px solid #0c1a2f; */
             border-radius: 50px;
-            transition: filter 0.5s ease;
                 border-radius: 1.7rem;
     border: 3px solid #58a6ff;
     box-shadow: 0 0 15px rgba(88, 166, 255, 0.7);
@@ -175,7 +170,6 @@
             font-size: 0.95rem;
             font-weight: 400;
             color: #8c9cb3;
-            border: 1px solid #2e435b;
         }
 
         /* Keyframes for animations */
